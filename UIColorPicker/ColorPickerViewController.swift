@@ -32,6 +32,9 @@ extension ColorPickerViewController: UIColorPickerViewControllerDelegate {
     func colorPickerViewControllerDidSelectColor(_ viewController: UIColorPickerViewController) {
         view.backgroundColor = viewController.selectedColor
         dismiss(animated: true, completion: nil)
+        
+        /// this is for changes
+        
     }
     
 }
